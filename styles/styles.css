@@ -1,1 +1,184 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  font-family: 'Square Peg', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 2px solid black;
+  width: 100%;
+  margin: auto;
+  background-color: ivory;
+}
+
+.header__text {
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.main__add-task-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__form {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__task-text {
+  margin: 1rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+          box-shadow: 0px 1px 0px 0px #1c1b18;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #eae0c2), to(#ccc2a6));
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  border: 2px solid #333029;
+  border-radius: 5px;
+  color: #505739;
+  -webkit-box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+          box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+}
+
+.main__btn {
+  font-size: 1.75rem;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+          box-shadow: 0px 1px 0px 0px #1c1b18;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #eae0c2), to(#ccc2a6));
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 15px;
+  border: 2px solid #333029;
+  display: inline-block;
+  cursor: pointer;
+  color: #505739;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  -webkit-box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+          box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+}
+
+.main__btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ccc2a6), to(#eae0c2));
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
+}
+
+.main__btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.main__list-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.main__list {
+  list-style: none;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding: 0;
+  background-color: #f6f2e1;
+  border: 2px solid #333029;
+  -webkit-box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+          box-shadow: -5px 5px 15px -2px rgba(0, 0, 0, 0.28);
+}
+
+.main__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.main__list-mark {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.main__list-text {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: 550;
+}
+
+.main__list-text--marked {
+  text-decoration: line-through;
+  text-decoration-thickness: 60%;
+  -webkit-text-decoration-color: rgba(0, 200, 0, 0.8);
+          text-decoration-color: rgba(0, 200, 0, 0.8);
+}
+
+.main__list-edit {
+  cursor: pointer;
+  margin-left: auto;
+  height: 24px;
+  width: 24px;
+}
+
+.main__list-delete {
+  cursor: pointer;
+  margin: 0 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: ivory;
+}
+
+.footer__text {
+  font-size: 2rem;
+  margin: 0 10px 0 0;
+}
+/*# sourceMappingURL=styles.css.map */

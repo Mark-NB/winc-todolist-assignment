@@ -5,15 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <script defer src="./scripts/api_client.js"></script>
-    <script defer src="./scripts/todo_list.js"></script>
+    <script defer src="./scripts/api-client.js"></script>
+    <script defer src="./scripts/todo-list.js"></script>
     <script defer src="./scripts/dom.js"></script>
     <title>ToDo List</title>
 </head>
 
 <body>
+    <header class="header">
+        <h1 class="header__text">ToDo List</h1>
+    </header>
+    <main class="main">
+        <div class=" main__add-task-section">
+            <form class="main__form" role="search">
+                <input type="search" name="add-task" placeholder="Task..." id="task-text" class="main__task-text"
+                    aria-label="Add task">
+                <button class="main__btn" type="submit">Add task</button>
+            </form>
+        </div>
+        <div class="main__list-section">
+
+            <ul class="main__list">
+
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">winc ToDo list assignment</p>
+    </footer>
 
 </body>
 
